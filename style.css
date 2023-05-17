@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family= Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #f6f7fb;
     font-family: 'Muli', sans-serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -29,8 +28,8 @@ body{
     width:350px
 }
 
-.progress-container::before{
-    .progress {
+.progress-container::before {
+    
         content: '';
         background-color: #e0e0e0;
         position: absolute;
@@ -38,10 +37,10 @@ body{
         left: 0;
         transform: translateY(-50%);
         height: 4px;
-        width: 1000%;
+        width: 100%;
         z-index: -1;
         
-    }
+    
 }
 
 .progress {
